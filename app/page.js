@@ -74,8 +74,8 @@ export default function Home() {
         <h1 className="font-bold text-3xl text-center mb-14">
             Learn more about us
         </h1>
-        <div>
-
+        <div className="flex justify-center items-center">
+          <iframe width="400" height="250" src="https://www.youtube.com/embed/43gAsHqvkDo?si=aTi-ALtI5Jza2Uz2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
         
