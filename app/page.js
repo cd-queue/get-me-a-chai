@@ -6,7 +6,7 @@ export default function Home() {
       <div className="min-h-[44vh] text-white flex flex-col justify-center items-center gap-4">
         <div className="text-3xl font-bold flex justify-center items-center">
           <span>Get me A Chai</span>
-          <img src="tea.gif" className="w-20" alt=""/>
+          <img src="tea.gif" className="w-20" alt="" />
         </div>
         <p>
           A crowdfunding plateform for creators. Get funded by your fans and
@@ -27,24 +27,58 @@ export default function Home() {
           </button>
         </div>
       </div>
+
       <div className="bg-white w-full h-1 opacity-10"></div>
-      <div className="text-white container mx-auto">
-          <h1 className="font-bold text-2xl text-center my-4">Your Fans can buy you a Chai</h1>
-          <div className="flex gap-5 justify-around">
-          <div>
-          <img className="bg-slate-400 p-2 rounded-full"  width={88} src="man.gif" alt="" />
-          <p>Fun Yourself</p>
+
+      <div className="text-white container mx-auto py-32 pt-14">
+        <h1 className="font-bold text-3xl text-center mb-14">
+          Your Fans can buy you a Chai
+        </h1>
+        <div className="flex gap-5 justify-around">
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img
+              className="bg-slate-400 p-2 rounded-full"
+              width={88}
+              src="man.gif"
+              alt=""
+            />
+            <p className="font-bold">Fans want to help</p>
+            <p className="text-center">Your fans are available to help you</p>
           </div>
-          <div>
-          <img className="bg-slate-400 p-2 rounded-full"  width={88} src="man.gif" alt="" />
-          <p>Fun Yourself</p>
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img
+              className="bg-slate-400 p-2 rounded-full"
+              width={88}
+              src="coin.gif"
+              alt=""
+            />
+            <p className="font-bold">Fans want to help</p>
+            <p className="text-center">Your fans are available to help you</p>
           </div>
-          <div>
-          <img className="bg-slate-400 p-2 rounded-full"  width={88} src="man.gif" alt="" />
-          <p>Fun Yourself</p>
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img
+              className="bg-slate-400 p-2 rounded-full"
+              width={88}
+              src="group.gif"
+              alt=""
+            />
+            <p className="font-bold">Fans want to help</p>
+            <p className="text-center">Your fans are available to help you</p>
           </div>
-          </div>
+        </div>
       </div>
+
+      <div className="bg-white w-full h-1 opacity-10"></div>
+
+      <div className="text-white container mx-auto py-32 pt-14">
+        <h1 className="font-bold text-3xl text-center mb-14">
+            Learn more about us
+        </h1>
+        <div>
+
+        </div>
+      </div>
+        
     </>
   );
 }
