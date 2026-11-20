@@ -5,13 +5,13 @@ export default function Home() {
     <>
       <div className="min-h-[44vh] text-white flex flex-col justify-center items-center gap-4">
         <div className="text-3xl font-bold flex justify-center items-center">
-          <span>Get me A Chai</span>
+          <span>Buy me A Chai</span>
           <img src="tea.gif" className="w-20" alt="" />
         </div>
         <p>
-          A crowdfunding plateform for creators. Get funded by your fans and
-          followers. Start now!
+          A crowdfunding plateform for creators to fund their projects.
         </p>
+        <p>A place where your fans can buy you a chai. Unleash the power of your fans and get your projects funded.</p>
         <div className="flex gap-2">
           <button
             type="button"
