@@ -1,10 +1,10 @@
 "use client"
 import { SessionProvider } from "next-auth/react";
 
-export default function SessionWrapper({Children}) {
+export default function SessionWrapper({children}) {
   return (
     <SessionProvider>
-      {Children}
+      {children}
     </SessionProvider>
   )
 }
