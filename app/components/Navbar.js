@@ -3,18 +3,10 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
-import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const { data: session, status } = useSession();
-  const router = useRouter();
   
-  console.log(session)
-  useEffect(() => {
-    if (status === "authenticated") {
-      router.push("/deshboard");
-    }
-  }, [status, router]);
   return (
     <nav className="flex justify-between items-center px-5 h-15 bg-gray-900 text-white">
       <Link href="/" className="logo font-bold text-xl flex items-center">
@@ -64,7 +56,7 @@ const Navbar = () => {
 
                 <li>
                   <Link
-                    href="/mypage"
+                    href="/myPage"
                     className="block px-4 py-2 rounded-lg hover:bg-gray-900 transition"
                   >
                     Your Page

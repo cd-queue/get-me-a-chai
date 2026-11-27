@@ -61,7 +61,7 @@ const page = () => {
 
   {/* GitHub */}
   <button
-    onClick={() => {signIn("github")}}
+    onClick={() => signIn("github", {callbackUrl: "/deshboard"})}
     type="button"
     className="flex w-full max-w-xs items-center rounded-lg border border-gray-300 bg-white px-6 py-2 text-sm font-medium text-gray-800 shadow-md transition-colors hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
   >
